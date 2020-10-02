@@ -10,7 +10,7 @@ def get_file_lines(filename):
 def lines_printed_backwards(lines_list):
     """This function prints a poem backwards, with a line counter in reverse"""
     print("Running lines_printed_backwards\n")
-    counter=len(lines_list)
+    counter=len(lines_list)+1
     for line in reversed(lines_list):
         counter-=1
         print(f"{counter} {line}")
